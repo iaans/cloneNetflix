@@ -3,7 +3,7 @@ import "./FeaturedMovie.css";
 
 export default ({ item }) => {
   return (
-    <section
+    <section   
       className="featured"
       style={{
         backgroundSize: "cover",
