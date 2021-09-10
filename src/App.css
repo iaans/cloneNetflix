@@ -14,3 +14,17 @@ body {
 .lists {
   margin-top: -100px;
 }
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ad060f;
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+}
