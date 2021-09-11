@@ -64,10 +64,17 @@ export default () => {
         </span>{" "}
         por <a href="https://github.com/iaans">Ian</a>
         <br />
-        Direitos de imagem para Netflix <br />
+        Direitos de imagem para Netflix, Amazon, Disney+, etc... <br />
         Dados utilizados do site{" "}
         <a href="https://www.themoviedb.org/">The Moviebd.org </a>
       </footer>
+
+        {movieList.length <= 0 && 
+          <div className="loading">
+            <img src="https://i.gifer.com/8Etj.gif" alt="Carregando" />
+          </div>
+        }
+
     </div>
   );
 };
